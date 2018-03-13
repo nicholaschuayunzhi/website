@@ -3065,7 +3065,7 @@
 }
 
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Item</span></span>{
-    <span class="hljs-keyword">private</span> List&lt;box cwf=<span class="hljs-string">"C:\repos\nus-te3201\website\book\oopImplementation\associations\q-essay-classDiagramForCode.md"</span>&gt; previousBoxes = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
+    <span class="hljs-keyword">private</span> List&lt;Box&gt; previousBoxes = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
     <span class="hljs-keyword">private</span> Card mainCard = <span class="hljs-keyword">null</span>;
     <span class="hljs-keyword">private</span> Card subCard = <span class="hljs-keyword">null</span>;
 
@@ -3089,7 +3089,6 @@
 </code></pre>
                     <div slot="answer">
                       <img src="/website/book/oopImplementation/associations/images/classDiagramForCodeAnswer.png" width="600"></div>
-                    <p></p>
                   </question>
                 </panel>
               </div>
@@ -4789,8 +4788,7 @@
                 <tip-box>
                   <p>Examples:</p>
                   <p><code>Person student</code><br>
-                    <code>ArrayList&lt;person cwf=&quot;C:\repos\nus-te3201\website\book\codeQuality\practices\nounsAndVerbsAsNames\text.md&quot;&gt; students</code></p>
-                  <p></p>
+                    <code>ArrayList&lt;Person&gt; students</code></p>
                 </tip-box>
               </div>
             </div>
@@ -7991,7 +7989,7 @@ Enter side 1:
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span></span>{
     
     Engine engine;
-    <span class="hljs-keyword">private</span> List&lt;wheel cwf=<span class="hljs-string">"C:\repos\nus-te3201\website\book\uml\classDiagrams\classes\what\q-essay-drawCarClass.md"</span>&gt;[] wheels = <span class="hljs-keyword">null</span>;
+    <span class="hljs-keyword">private</span> List&lt;Wheel&gt;[] wheels = <span class="hljs-keyword">null</span>;
     <span class="hljs-keyword">public</span> String model;
     
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">drive</span><span class="hljs-params">(<span class="hljs-keyword">int</span> speed)</span></span>{
@@ -8004,7 +8002,6 @@ Enter side 1:
 }
 
 </code></pre>
-                    <p></p>
                   </question>
                 </panel>
               </div>
@@ -8103,10 +8100,9 @@ Enter side 1:
             <img src="/website/book/uml/classDiagrams/associations/roles/images/adminStudent.png" height="70">
             <p></p>
             <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span></span>{
-    List&lt;student cwf=<span class="hljs-string">"C:\repos\nus-te3201\website\book\uml\classDiagrams\associations\roles\text.md"</span>&gt; charges;
+    List&lt;Student&gt; charges;
 }
 </code></pre>
-            <p></p>
           </tip-box>
         </div>
         <div></div>

@@ -4792,7 +4792,7 @@ exit();
                 <tip-box>
                   <p>Examples:</p>
                   <p><code>Person student</code><br>
-                    <code>ArrayList&lt;Person cwf=&quot;C:\repos\nus-te3201\website\book\codeQuality\practices\nounsAndVerbsAsNames\text.md&quot;&gt; students</code></p>
+                    <code>ArrayList&lt;Person&gt; students</code></p>
                 </tip-box>
               </div>
             </div>
@@ -5474,7 +5474,7 @@ send();
  * Returns an Image object that can then be painted on the screen. 
  * The url argument must specify an absolute {<span class="hljs-doctag">@link</span> URL}. The name
  * argument is a specifier that is relative to the url argument. 
- * &lt;p cwf="C:\repos\nus-te3201\website\book\documentation\tools\javaDoc\what\text.md"&gt;
+ * &lt;p&gt;
  * This method always returns immediately, whether or not the 
  * image exists. When this applet attempts to draw the image on
  * the screen, the data will be loaded. The graphics primitives 
@@ -9870,7 +9870,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <img src="/website/book/uml/classDiagrams/associations/roles/images/adminStudent.png" height="70">
             <p></p>
             <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span></span>{
-    List&lt;Student cwf=<span class="hljs-string">"C:\repos\nus-te3201\website\book\uml\classDiagrams\associations\roles\text.md"</span>&gt; charges;
+    List&lt;Student&gt; charges;
 }
 </code></pre>
           </tip-box>
@@ -10655,7 +10655,7 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
 <span class="hljs-comment"># Initial commit</span>
 <span class="hljs-comment">#</span>
 <span class="hljs-comment"># Untracked files:</span>
-<span class="hljs-comment">#   (use "git add &lt;file cwf="C:\repos\nus-te3201\website\book\gitAndGithub\commit\cli_1.md"&gt;..." to include in what will be committed)</span>
+<span class="hljs-comment">#   (use "git add &lt;file&gt;..." to include in what will be committed)</span>
 <span class="hljs-comment">#</span>
 <span class="hljs-comment">#   a.txt</span>
 nothing added to commit but untracked files present (use <span class="hljs-string">"git add"</span> to track)
@@ -10699,7 +10699,7 @@ git status
 <span class="hljs-comment"># Initial commit</span>
 <span class="hljs-comment">#</span>
 <span class="hljs-comment"># Changes to be committed:</span>
-<span class="hljs-comment">#   (use "git rm --cached &lt;file cwf="C:\repos\nus-te3201\website\book\gitAndGithub\commit\cli_2.md"&gt;..." to unstage)</span>
+<span class="hljs-comment">#   (use "git rm --cached &lt;file&gt;..." to unstage)</span>
 <span class="hljs-comment">#</span>
 <span class="hljs-comment">#       new file:   fruits.txt</span>
 <span class="hljs-comment">#</span>
@@ -10906,14 +10906,14 @@ index 15b57f7..17f4528 100644
             </tab>
             <tab header="CLI">
               <div>
-                <p>Use the <code>checkout &lt;commit-identifier cwf=&quot;C:\repos\nus-te3201\website\book\gitAndGithub\checkout\cli_3.md&quot;&gt;</code> command to change the working directory to the state it was in at a specific past commit.</p>
+                <p>Use the <code>checkout &lt;commit-identifier&gt;</code> command to change the working directory to the state it was in at a specific past commit.</p>
                 <ul>
                   <li><code>git checkout v1.0</code>: loads the state as at commit tagged <code>v1.0</code></li>
                   <li><code>git checkout 0023cdd</code>: loads the state as at commit with the hash <code>0023cdd</code></li>
                   <li><code>git checkout HEAD~2</code>: loads the state that is 2 commits behind the most recent commit</li>
                 </ul>
                 <p>For now, you can ignore the warning about ‘detached HEAD’.</p>
-                <p>Use the <code>checkout &lt;branch-name cwf=&quot;C:\repos\nus-te3201\website\book\gitAndGithub\checkout\cli_3.md&quot;&gt;</code> to go back to the most recent commit of the current branch (the default branch in git is named <code>master</code>)</p>
+                <p>Use the <code>checkout &lt;branch-name&gt;</code> to go back to the most recent commit of the current branch (the default branch in git is named <code>master</code>)</p>
                 <ul>
                   <li><code>git checkout master</code></li>
                 </ul>

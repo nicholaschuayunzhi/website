@@ -10,6 +10,7 @@
 * Can write code using variables
 * Can use basic (scalar) data types
 * Can use strings
+* Can work with multiple repositories
 
 # Week 2
 
