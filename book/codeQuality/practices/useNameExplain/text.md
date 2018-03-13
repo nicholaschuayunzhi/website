@@ -36,7 +36,7 @@ Examples:
 
 </tip-box>
 
-Imagine going to the doctor's and saying "My eye is swollen"! Don’t use numbers or case to distinguish names.
+Imagine going to the doctor and saying "My eye is swollen"! Don’t use numbers or case to distinguish names.
 
 <tip-box>
 
