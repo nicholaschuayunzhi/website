@@ -43,7 +43,7 @@ The Python module `os` contains functions for dealing with files and folders. Fo
 
 <tip-box> 
 
-:package: 
+:package: Example code showing how to print/change current working directory
 
 <table> 
 <tr>
@@ -109,11 +109,11 @@ In a path, you can use the  dot `.` as a shorthand to refer to the current worki
 
 </tip-box>
 
-You can use `os.mkdir()` function to create folders and `os.removedirs()` to delete folders.
+You can use `os.mkdirs()` function to create folders and `os.removedirs()` to delete folders.
 
 <tip-box> 
 
-:package: 
+:package: Example code showing how to create/delete directories
 
 <table> 
 <tr>
